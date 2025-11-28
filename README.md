@@ -4,7 +4,7 @@ A React-based inventory management application for tracking products, articles, 
 
 ## Overview
 
-This application allows warehouse managers to:In the project directory, you can run:
+This application allows warehouse managers to:
 
 -   View available products and their stock levels
 
@@ -12,7 +12,7 @@ This application allows warehouse managers to:In the project directory, you can 
 
 -   Register product sales
 
--   Track sales historyRuns the app in the development mode.
+-   Track sales history
 
 -   Manage inventory in real-timeOpen [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
@@ -20,9 +20,9 @@ This application allows warehouse managers to:In the project directory, you can 
 
 ├── components/
 
-│ ├── Products/ # Product-related componentsLaunches the test runner in the interactive watch mode.
+│ ├── Products/ # Product-related components
 
-│ └── Sales/ # Sales-related componentsSee the section about
+│ └── Sales/ # Sales-related components
 
 ├── hooks/ # Custom React hooks
 
@@ -30,13 +30,13 @@ This application allows warehouse managers to:In the project directory, you can 
 
 ├── styles/ # Global styles
 
-└── types.ts # TypeScript type definitionsBuilds the app for production to the `build` folder.
+└── types.ts # TypeScript type definitions
 
 ## Components
 
 ### 1. ProductList Component
 
-**Location:** `src/components/Products/ProductList.tsx`See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Location:** `src/components/Products/ProductList.tsx`.
 
 **Purpose:** Displays all available products with their stock information and article details.
 
