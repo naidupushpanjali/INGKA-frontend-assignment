@@ -166,7 +166,7 @@ const ProductList: React.FC<ProductListProps> = ({
                                         </Table>
                                         {/* We can create Button as a reusable library and set it in /libraries */}
                                         <Button
-                                            className="buy-no-button"
+                                            className="buy-now-button"
                                             href=""
                                             iconPosition="leading"
                                             size="medium"

@@ -26,12 +26,6 @@
   z-index: 100;
 }
 
-.app-header h1 {
-  color: #333;
-  font-size: 1.8rem;
-  font-weight: 700;
-}
-
 .btn-refresh {
   background: #667eea;
   color: white;

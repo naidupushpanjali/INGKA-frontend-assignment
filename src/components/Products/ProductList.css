@@ -20,6 +20,6 @@
     justify-content: space-evenly;
 }
 
-.buy-no-button {
-    margin-top: var(--space-xxl);
+.buy-now-button {
+    margin-top: 2em;
 }
