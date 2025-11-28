@@ -1,0 +1,25 @@
+.accordion-item-header__title-wrapper span {
+    display: flex;
+    justify-content: space-between;
+}
+
+.low-stock {
+    color: hsl(0, 100%, 50%);
+}
+
+.medium-stock {
+    color: hsl(39, 100%, 50%);
+}
+
+.high-stock {
+    color: hsl(120, 100%, 25%);
+}
+
+.stock-cell {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buy-no-button {
+    margin-top: var(--space-xxl);
+}
