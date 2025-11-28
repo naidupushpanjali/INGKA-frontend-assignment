@@ -2,7 +2,7 @@
 
 A React-based inventory management application for tracking products, articles, and sales. Built with TypeScript and INGKA design system components.This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Overview## Available Scripts
+## Overview
 
 This application allows warehouse managers to:In the project directory, you can run:
 
