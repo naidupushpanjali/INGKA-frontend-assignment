@@ -1,4 +1,4 @@
-# Warehouse Inventory Management System# Getting Started with Create React App
+# Warehouse Inventory Management System
 
 A React-based inventory management application for tracking products, articles, and sales. Built with TypeScript and INGKA design system components.This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -8,11 +8,11 @@ This application allows warehouse managers to:In the project directory, you can 
 
 -   View available products and their stock levels
 
--   Monitor article inventory required to build products### `npm start`
+-   Monitor article inventory required to build products
 
 -   Register product sales
 
--   Track sales historyRuns the app in the development mode.\
+-   Track sales historyRuns the app in the development mode.
 
 -   Manage inventory in real-timeOpen [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
@@ -20,29 +20,25 @@ This application allows warehouse managers to:In the project directory, you can 
 
 ├── components/
 
-│ ├── Products/ # Product-related componentsLaunches the test runner in the interactive watch mode.\
+│ ├── Products/ # Product-related componentsLaunches the test runner in the interactive watch mode.
 
 │ └── Sales/ # Sales-related componentsSee the section about
 
 ├── hooks/ # Custom React hooks
 
-├── integrations/ # API service layer### `npm run build`
+├── integrations/ # API service layer
 
 ├── styles/ # Global styles
 
-└── types.ts # TypeScript type definitionsBuilds the app for production to the `build` folder.\
+└── types.ts # TypeScript type definitionsBuilds the app for production to the `build` folder.
 
-## ComponentsThe build is minified and the filenames include the hashes.\
-
-Your app is ready to be deployed!
+## Components
 
 ### 1. ProductList Component
 
 **Location:** `src/components/Products/ProductList.tsx`See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-**Purpose:** Displays all available products with their stock information and article details.### `npm run eject`
-
-**Key Features:\*\***Note: this is a one-way operation. Once you `eject`, you can’t go back!\*\*
+**Purpose:** Displays all available products with their stock information and article details.
 
 -   Shows products in an expandable accordion layout
 
@@ -50,15 +46,13 @@ Your app is ready to be deployed!
 
 -   Shows maximum available quantity for each product
 
--   Expandable article details table showing:Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+-   Expandable article details table
 
     -   Article name
 
-    -   Required quantity per productYou don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    -   Required quantity per product
 
     -   Current stock with visual indicators
-
--   "Sell Product" button for available items
 
 **Props:**
 
