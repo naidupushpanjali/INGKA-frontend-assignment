@@ -1,0 +1,42 @@
+@layer base {
+  body {
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: 400;
+    background-color: var(--grey-1);
+    color: var(--base-text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  b {
+    font-weight: 500;
+    margin: 0;
+  }
+
+  ol,
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    display: grid;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: auto;
+  }
+
+  /* Define font size for headings H1 to H6 in base.css 
+    so that we don't need to specify it always for each component CSS 
+  */
+  h3 {
+    font-size: var(--font-size-l);
+  }
+}
